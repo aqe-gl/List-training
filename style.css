@@ -1,9 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
 body {
-    background-color:rgb(1, 105, 165);
+    background:linear-gradient(rgb(3, 109, 209), rgb(0, 32, 216));
     color:honeydew;
+    font-family: "Nunito Sans", sans-serif;
+    height: 100vh;
 
 }
 
 ul {
     list-style-type:'🛩';
+}
+
+a {
+    color: rgb(226, 4, 4);
+    font-size: 20px;
+    text-decoration: underline;
+    
+}
+
+.red {
+    color: rgb(226, 4, 4);
+    text-shadow: 3px 3px 5px red;
+}
+
+.green {
+    color:rgb(64, 185, 64);
+    text-shadow: 3px 3px 5px green;
+}
+
+h1 {
+    text-decoration:none;
+    text-align:center;
+    font-family: "Bungee Spice", sans-serif;
+    text-shadow: 5px 5px 0px black;
 }
